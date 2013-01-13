@@ -13,6 +13,6 @@ def cosine(h1, h2)
 	h2.each{|key, value|
 		temp_h2 = value * value + temp_h2
 	}
-	result = temp / (Math.sqrt(temp_h1) * Math.sqrt(temp_h1))
+	result = temp / (Math.sqrt(temp_h1) * Math.sqrt(temp_h2))
 	return result
 end
